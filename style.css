@@ -1,0 +1,8 @@
+h1, h2{
+    text-align: center;
+}
+.hero {
+    background-image: url('./assets/photos/coffee-hero-bg.jpg'); 
+    /* background-color: blue; */
+    height: 500px;
+}
