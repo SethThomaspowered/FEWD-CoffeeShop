@@ -9,18 +9,18 @@
 </head>
 <body>
     <header>
-        <h1>DERBY CITY DRIP</h1>
+        <h1><img src='./assets/logos/derbycitydrip-logo.svg' alt='Derby City Drip'></h1>
         <nav>
-            <svg xmlns="http://www.w3.org/2000/svg" width="54.982" height="48" viewBox="0 0 54.982 48"><g transform="translate(626.139 679.897)"><g transform="translate(-626.139 -660.043)"><path d="M-575.309-626.452h-46.677a4.149,4.149,0,0,1-4.152-4.146,4.149,4.149,0,0,1,4.152-4.145h46.677a4.149,4.149,0,0,1,4.152,4.145A4.149,4.149,0,0,1-575.309-626.452Z" transform="translate(626.139 634.743)" fill="#003964"/></g><g transform="translate(-626.139 -640.188)"><path d="M-575.309-581.3h-46.677a4.149,4.149,0,0,1-4.152-4.145,4.149,4.149,0,0,1,4.152-4.145h46.677a4.149,4.149,0,0,1,4.152,4.145A4.149,4.149,0,0,1-575.309-581.3Z" transform="translate(626.139 589.588)" fill="#003964"/></g><g transform="translate(-626.139 -679.897)"><path d="M-575.309-671.606h-46.677a4.149,4.149,0,0,1-4.152-4.145,4.149,4.149,0,0,1,4.152-4.145h46.677a4.149,4.149,0,0,1,4.152,4.145A4.149,4.149,0,0,1-575.309-671.606Z" transform="translate(626.139 679.897)" fill="#003964"/></g></g></svg>
+            <img class='' src='./assets/logos/menu-icon.svg' alt='nav-menu'>
             <ul class='hidden'>
-                <li>Home</li>
+                <li><a href='#home'>Home</a></li>
                 <li>Location</li>
                 <li>Menu</li>
                 <li>Contact</li>
             </ul>
         </nav>
     </header>
-    <section class='hero'>
+    <section class='hero' id="home">
         <h2>Experience the Best Cup in Town</h2>
         <p></p>
         <button>Order Online</button>
@@ -28,11 +28,24 @@
     <section>
 
     </section>
-    <section>
+    <section class='location'>
 
     </section>
     <section class='menu'>
 
+    </section>
+    <section class="coffee-club">
+        <h2>Join the DCD Coffee Club!</h2>
+        <p>Steamed roast white saucer aroma decaffeinated. Caramelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
+        <form>
+            <label name='name'>NAME: 
+                <input type='text' prompt='JOHN DOE' id="name"></input>
+            </label>
+            <label name='email'>EMAIL:
+                <input type='email' id='email' prompt='JOHNDOE@GMAIL.COM'></input>
+            </label>
+            <button type='submit'>JOIN NOW</button>
+        </form>
     </section>
     <footer></footer>
 </body>

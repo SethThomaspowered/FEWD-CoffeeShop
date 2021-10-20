@@ -1,8 +1,20 @@
-h1, h2{
+body{
     text-align: center;
 }
 .hero {
     background-image: url('./assets/photos/coffee-hero-bg.jpg'); 
     /* background-color: blue; */
     height: 500px;
+}
+.hidden{
+    display: none;
+}
+.coffee-club {
+    background-color: #074980;
+    display: flex;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
 }
