@@ -3,6 +3,7 @@ body{
 }
 .hero {
     background-image: url('./assets/photos/coffee-hero-bg.jpg'); 
+    background-size: cover;
     height: 500px;
 }
 .hidden{
@@ -35,7 +36,9 @@ form {
 }
 .coffee-coffee {
     background-image: url("./assets/photos/coffee-beans-bg.jpg");
+    background-size: cover;
     color: #f2f2f2;
+    padding: 50px;
 }
 .location, .recap {
     background-color: #233237;
