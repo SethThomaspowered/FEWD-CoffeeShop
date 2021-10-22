@@ -14,9 +14,9 @@
             <img class='' src='./assets/logos/menu-icon.svg' alt='nav-menu'>
             <ul class='hidden'>
                 <li><a href='#home'>Home</a></li>
-                <li>Location</li>
-                <li>Menu</li>
-                <li>Contact</li>
+                <li><a href='#location'>Location</a></li>
+                <li><a href='#menu'>Menu</a></li>
+                <li><a href='#contact'>Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -25,11 +25,29 @@
         <p></p>
         <button>Order Online</button>
     </section>
-    <section>
-
+    <section class='coffee-coffee'>
+        <h2>Our Finely Roasted Coffees</h2>
+        <p>Flavour sit brewed irish qui roast americano mocha single shot affogato.<br>
+            Aged, steamed roast white saucer aroma decaffeinated. Caramelization<br>
+            skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
+        </p>
     </section>
-    <section class='location'>
-
+    <section class='location row'>
+        
+        <div class ='col-1'>
+            <h3>Location</h3>
+            <p>1234 W Main St</p>
+            <p>Louisville, KY 40213</p>
+            <p>P: 502-555-5555</p>
+            <p>E: hello@derbycitydrip.com</p>
+            <img>
+        </div>
+        <div class='col-2'>
+            <h3>Hours</h3>
+            <p>These are our current hours,<br>
+            unforeseen circumstances may<br>
+            cause these to change.</p>
+        </div>
     </section>
     <section class='menu'>
 
@@ -44,9 +62,28 @@
             <label name='email'>EMAIL:
                 <input type='email' id='email' prompt='JOHNDOE@GMAIL.COM'></input>
             </label>
-            <button type='submit'>JOIN NOW</button>
+            <button type='submit' id='coffee-club-btn'>JOIN NOW</button>
         </form>
     </section>
-    <footer></footer>
+    <footer class='row'>
+        <div class='col-1'>
+            <h4>Location</h4>
+            <ul>
+                <li>1234 W Main St</li>
+                <li>Louisville, KY 40213</li>
+                <li>P: 502 555-5555</li>
+                <li>E: hello@derbycitydrip.com</li>
+            </ul>
+        </div>
+        <div class='col-2'>
+            <h4>SITEMAP</h4>
+            <ul class='footer-nav'>
+                <li><a href='#home'>Home</a></li>
+                <li><a href='#location'>Location</a></li>
+                <li><a href='#menu'>Menu</a></li>
+                <li><a href='#contact'>Contact</a></li>
+            </ul> 
+        </div>
+    </footer>
 </body>
 </html>

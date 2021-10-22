@@ -9,12 +9,36 @@ body{
 .hidden{
     display: none;
 }
+ul li {
+    list-style: none;
+}
 .coffee-club {
-    background-color: #074980;
+    background-color: #014107;
     display: flex;
     flex-direction: column;
+    color: #f2f2f2;
 }
 form {
     display: flex;
     flex-direction: column;
+}
+#coffee-club-btn {
+    background-color: #a6592f;
+}
+.row {
+    display: flex;
+}
+.col-1{
+    width: 54%;
+}
+.col-2{
+    width: 46%;
+}
+.coffee-coffee {
+    background-image: url("./assets/photos/coffee-beans-bg.jpg");
+    color: #f2f2f2;
+}
+.location {
+    background-color: #233237;
+    color:#f2f2f2;
 }
