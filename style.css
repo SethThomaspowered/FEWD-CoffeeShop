@@ -1,10 +1,16 @@
 body{
     text-align: center;
+    display: grid;
+    grid-template-columns: 15em auto 15em;
+    grid-template-rows: min-content auto min-content;
+    background-image: url('./assets/photos/coffee-hero-bg.jpg');
+}
+header, footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 .hero {
-    background-image: url('./assets/photos/coffee-hero-bg.jpg'); 
-    background-size: cover;
-    height: 500px;
+    
 }
 .hidden{
     display: none;
