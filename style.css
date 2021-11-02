@@ -1,17 +1,16 @@
-body{
-    text-align: center;
-    display: grid;
+  body{
+    /* display: grid;
     grid-template-columns: 15em auto 15em;
-    grid-template-rows: min-content auto min-content;
+    grid-template-rows: min-content auto min-content; */
     background-image: url('./assets/photos/coffee-hero-bg.jpg');
 }
-header, footer {
+/*header, footer {
     grid-column-start: 1;
     grid-column-end: 4;
-}
-.hero {
+} */
+/* .hero {
     
-}
+} */ 
 .hidden{
     display: none;
 }
@@ -39,6 +38,7 @@ form {
 }
 .col-2{
     width: 46%;
+    display: inline;
 }
 .coffee-coffee {
     background-image: url("./assets/photos/coffee-beans-bg.jpg");
@@ -54,4 +54,10 @@ footer {
     background-color: #222222;
     color:#f2f2f2;
     position: fixed bottom;
+}
+.hours {
+    padding: 10 10 10 10;
+}
+h2, h3, p {
+    text-align: center;
 }
