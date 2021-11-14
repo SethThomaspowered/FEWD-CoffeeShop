@@ -1,4 +1,5 @@
   body{
+    text-align: center;
     /* display: grid;
     grid-template-columns: 15em auto 15em;
     grid-template-rows: min-content auto min-content; */
@@ -32,13 +33,16 @@ form {
 }
 .row {
     display: flex;
+    flex-direction: column;
 }
 .col-1{
-    width: 54%;
+    width: 46%;
+    position: relative; 
 }
 .col-2{
     width: 46%;
-    display: inline;
+    position: relative;
+
 }
 .coffee-coffee {
     background-image: url("./assets/photos/coffee-beans-bg.jpg");
